@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 350px 0 300px;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgb(59, 189, 237);
+  line-height: 2;
+}
+h2 {
+  color: rgb(59, 189, 237);
+}
+a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: rgb(59, 189, 237);
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+p {
+  color: grey;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.post {
+  width: 100%;
+  height: auto;
+}
+hr {
+  margin: 0 -350px 0 -300px;
+  height: 5px;
+  background-color: rgb(59, 189, 237);
+}
+.nav {
+  background-color: rgb(231, 224, 224);
+  padding: 10px 10px 40px 10px;
+}
+.related {
+  width: 100px;
+  height: 100px;
+}
+li {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: rgb(167, 161, 161);
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.rel {
+  color: black;
+  font-weight: bold;
+}
+.hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+.heading {
+  text-align: center;
+  color: black;
+}
+div {
+  background-color: rgb(231, 224, 224);
+  margin-right: 350px;
+}
+button {
+  background-color: rgb(231, 224, 224);
+  font-size: 1.3rem;
+  padding: 20px;
+  float: right;
+  margin-right: -620px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+footer {
+  margin-top: 50px;
+}
